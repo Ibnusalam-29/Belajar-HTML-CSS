@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Tabel</title>
+</head>
+<body>
+    <h1>Membuat Tabel</h1>
+    <!-- tr, baris kekanan -->
+    <!-- td, data -->
+    <!-- th, header -->
+    <h4>Tabel Nomal</h4>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <h4>Dengan Header</h4>
+
+    <table border="1">
+        <tr>
+            <th>Senin</th>
+            <td>07.00</td>
+            <td>10.00</td>
+            <td>12.00</td>
+        </tr>
+        <tr>
+            <th>Selasa</th>
+            <td>07.00</td>
+            <td>10.00</td>
+            <td>12.00</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>No Hp</th>
+        </tr>
+        <tr>
+            <td>Rizki</td>
+            <td>Jl. Merdeka No. 1</td>
+            <td>08123456789</td>
+        </tr>
+        <tr>
+            <td>Ani</td>
+            <td>Jl. Sudirman No. 2</td>
+            <td>08987654321</td>
+        </tr>
+    </table>
+
+    <br>
+    <h4>Jadwal</h4>
+
+    <table border="1">
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <th>07.00</th>
+            <td>IPA</td>
+            <td>AGAMA</td>
+        </tr>
+        <tr>
+            <th>08.00</th>
+            <td>IPA</td>
+            <td>AGAMA</td>
+        </tr>
+        <tr>
+            <th>09.00</th>
+            <td>BHS.INDO</td>
+            <td>PKN</td>
+        </tr>
+        <tr>
+            <th>10.00</th>
+            <td>BHS.INDO</td>
+            <td>PKN</td>
+        </tr>
+        <tr>
+            <th>10.00</th>
+            <td>ISTIRAHAT</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <th>10.15</th>
+            <td>MM</td>
+            <td>KIMIA</td>
+        </tr>
+        <tr>
+            <th>11.00</th>
+            <td>MM</td>
+            <td>KIMIA</td>
+        </tr>
+        <tr>
+            <th>12.00</th>
+            <td>ISTIRAHAT KE-2</td>
+            <td>ISTIRAHAT KE-2</td>
+        </tr>
+        <tr>
+            <th>13.00</th>
+            <td>BHS.JAWA</td>
+            <td>BHS.INGGRIS</td>
+        </tr>
+        <tr>
+            <th>14.00</th>
+            <td>BHS.JAWA</td>
+            <td>BHS.INGGRIS</td>
+        </tr>
+        <tr>
+            <th>15.00</th>
+            <td>BHS.JAWA</td>
+            <td>BHS.INGGRIS</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- rowspan itu merge kebawah -->
+    <!-- colspan itu merge ke kanan -->
+
+    <table border="1">
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <th>07.00</th>
+            <td rowspan="2">IPA</td>
+            <td rowspan="2">AGAMA</td>
+        </tr>
+        <tr>
+            <th>08.00</th>
+        </tr>
+        <tr>
+            <th>09.00</th>
+            <td rowspan="2">BHS.INDO</td>
+            <td rowspan="2">PKN</td>
+        </tr>
+        <tr>
+            <th>10.00</th>
+        </tr>
+        <tr>
+            <th>10.00</th>
+            <td>ISTIRAHAT</td>
+            <td>ISTIRAHAT</td>
+        </tr>
+        <tr>
+            <th>10.15</th>
+            <td rowspan="2">MM</td>
+            <td rowspan="2">KIMIA</td>
+        </tr>
+        <tr>
+            <th>11.00</th>
+        </tr>
+        <tr>
+            <th>12.00</th>
+            <td>ISTIRAHAT KE-2</td>
+            <td>ISTIRAHAT KE-2</td>
+        </tr>
+        <tr>
+            <th>13.00</th>
+            <td rowspan="3">BHS.JAWA</td>
+            <td rowspan="3">BHS.INGGRIS</td>
+        </tr>
+        <tr>
+            <th>14.00</th>
+        </tr>
+        <tr>
+            <th>15.00</th>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
